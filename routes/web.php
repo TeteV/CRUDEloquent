@@ -27,3 +27,5 @@ Route::get('/delete-post/{id}','App\Http\Controllers\PostController@deletePost')
 Route::get('/update-post','App\Http\Controllers\PostController@updatePost')->name('post.update');
 
 Route::get('/edit-post/{id}','App\Http\Controllers\PostController@updateForm');
+
+Route::get('/posts/{id}','App\Http\Controllers\PostController@getPost')->name('post.get1');

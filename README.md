@@ -35,6 +35,16 @@ Open your web browser and copy the link
 http://localhost:8000
 ```
 
+If you want to use Postman
+```
+http://localhost:8000/api/posts
+http://localhost:8000/api/posts/1
+http://localhost:8000/api/update-post/1
+http://localhost:8000/api/add-post
+http://localhost:8000/api/delete-post/1
+```
+
+
 ## Made with
 [Php Storm](https://www.jetbrains.com/es-es/phpstorm/) Website.
 
